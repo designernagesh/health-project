@@ -855,11 +855,11 @@
                 transform: translateY(-2px);
                 flex: 0 0 auto;
             }
-        }
+        }        
         &-two {
             & li {
                 @include flexbox();
-                align-items: center;
+                align-items: flex-start;
                 gap: 9px;
                 font-size: 17px;
                 font-weight: 500;

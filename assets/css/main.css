@@ -53,8 +53,8 @@
   --tg-heading-line-height: 1.2;
   --tg-body-color: #343C4D;
   --tg-heading-color: #01022E;
-  --tg-theme-primary: #0047FF;
-  --tg-theme-secondary: #01022E;
+  --tg-theme-primary: #FF4F00;
+  --tg-theme-secondary: #001052;
   --tg-color-sky-blue: #00B2FF;
   --tg-color-yellow-light: #FFB930;
   --tg-color-yellow-light-2: #F09E24;
@@ -74,7 +74,7 @@
   --tg-color-gray-12: #F0F0F0;
   --tg-color-gray-13: #F8F8F8;
   --tg-color-dark: #121212;
-  --tg-color-dark-2: #040426;
+  --tg-color-dark-2: #001052;
   --tg-color-gradient: linear-gradient(90deg, #C3D4FF 0%, #0047FF 100%);
   --tg-border-1: #555C6A;
   --tg-border-2: #E6E7F3;
