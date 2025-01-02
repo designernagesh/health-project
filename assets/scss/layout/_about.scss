@@ -1439,6 +1439,13 @@
         padding: 100px 0;
     }
 }
+
+.section-py-100 {
+    padding: 100px 0;
+    @media #{$xs} {
+        padding: 70px 0;
+    }
+}
 .section-pt-130 {
     padding-top: 130px;
     @media #{$xs} {
