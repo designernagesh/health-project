@@ -856,11 +856,7 @@
                 flex: 0 0 auto;
             }
         }
-        & .nexted-one {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+        
         &-two {
             & li {
                 @include flexbox();
@@ -883,6 +879,11 @@
                     background: var(--tg-theme-primary);
                     color: var(--tg-color-white-default);
                     flex: 0 0 auto;
+                }
+                & .nexted-one {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
                 }
             }
         }
@@ -1445,10 +1446,10 @@
     }
 }
 
-.section-py-100 {
-    padding: 100px 0;
+.section-py-75 {
+    padding: 75px 0;
     @media #{$xs} {
-        padding: 70px 0;
+        padding: 50px 0;
     }
 }
 .section-pt-130 {
