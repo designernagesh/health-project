@@ -584,6 +584,13 @@
             margin-bottom: 0;
             font-size: 15px;
         }
+        & a {
+            color: #878BA8;
+            font-size: 13px;
+            &:hover {
+                color: var(--tg-theme-primary);
+            }
+        }
     }
     &-three {
         & p {

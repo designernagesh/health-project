@@ -59,13 +59,13 @@
             gap: 6px;
             & > * {
                 font-size: 15px;
-                color: var(--tg-theme-primary);
+                color: #939AC6;
                 font-weight: 500;
                 text-transform: capitalize;
                 & a {
                     color: #939AC6;
                     &:hover {
-                        color: var(--tg-theme-primary);
+                        color: #939AC6;
                     }
                 }
             }
@@ -74,6 +74,9 @@
                 font-size: 16px;
                 font-weight: 700;
                 color: #939AC6;
+            }
+            span:last-child {
+                color: #FFF;
             }
         }
     }
