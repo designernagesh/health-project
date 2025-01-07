@@ -5427,11 +5427,11 @@ textarea {
 .slider__bg-three::before {
   content: "";
   position: absolute;
-  left: 23%;
+  left: 13%;
   bottom: 12px;
   width: 158px;
   height: 243px;
-  background: rgba(0, 42, 150, 0.9);
+  background: rgba(0, 16, 82, 0.9);
   clip-path: polygon(56% 0%, 100% 0%, 44% 100%, 0% 100%);
   transform: rotate(1.251deg);
 }
@@ -5457,9 +5457,9 @@ textarea {
   left: 148px;
   top: 50%;
   transform: translateY(-50%) rotate(21deg);
-  width: 220px;
+  width: 120px;
   height: 200%;
-  background: rgba(0, 71, 255, 0.95);
+  background: rgba(255, 79, 0, 0.85);
 }
 @media (max-width: 1800px) {
   .slider__bg-three::after {
@@ -20513,6 +20513,9 @@ blockquote cite {
 }
 .footer__logo-two {
   margin-bottom: 30px;
+}
+.footer__logo-two img {
+  max-width: 200px;
 }
 .footer__content p {
   margin-bottom: 25px;
