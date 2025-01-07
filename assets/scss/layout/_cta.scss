@@ -4,6 +4,7 @@
     	07. CTA
 ===============================*/
 .cta {
+    
     &__area {
         background: var(--tg-theme-secondary);
         padding: 82px 0;
@@ -78,7 +79,7 @@
         &-two {
             background: var(--tg-theme-primary);
             @include border-radius(20px);
-            padding: 65px 65px;
+            padding: 50px 65px;
             position: relative;
             z-index: 1;
             overflow: hidden;
@@ -148,7 +149,7 @@
                 margin-bottom: 0;
                 font-weight: 500;
                 color: var(--tg-color-white-default);
-            }
+            }            
         }
         &-three {
             @media #{$md} {
@@ -165,12 +166,21 @@
                     width: 100%;
                 }
             }
+            p {
+                color: var(--tg-color-white-default);
+                margin: 10px 0 0;
+                line-height: 20px;
+            }            
         }
         &-right {
+            .tg-border-btn {
+                padding: 17px;
+            }
+
             @include flexbox();
             align-items: center;
             justify-content: flex-end;
-            gap: 35px;
+            gap: 15px;
             @media #{$lg} {
                 gap: 25px;
             }
@@ -252,7 +262,7 @@
     &__contact {
         @include flexbox();
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         & .icon {
             font-size: 50px;
             color: var(--tg-color-white-default);

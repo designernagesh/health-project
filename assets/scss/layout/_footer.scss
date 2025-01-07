@@ -64,9 +64,9 @@
             }
         }
         &-two {
-            padding: 140px 0 100px;
+            padding: 75px 0 30px;
             @media #{$xs} {
-                padding: 100px 0 60px;
+                padding: 50px 0 20px;
             }
             & .row * {
                 &:nth-child(2) {
