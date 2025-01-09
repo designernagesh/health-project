@@ -5,8 +5,8 @@ ul.nexted-list-items li{
     margin-bottom: 5px;
 }
 ul.nexted-list-items ul{
-    list-style-image: url(../../assets/img/icons/nexted-icon-2.png);
+    list-style-image: url(../../assets/img/icons/nexted-icon-3.png);
 }
 ul.nexted-list-items ul ul{
-    list-style-image: url(../../assets/img/icons/nexted-icon-3.png);
+    list-style-image: url(../../assets/img/icons/nexted-icon-2.png);
 }

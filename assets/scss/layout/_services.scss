@@ -160,6 +160,7 @@
             background: var(--tg-color-white-default);
             @include border-radius(30px);
             padding: 50px 45px;
+            display: flex;
             @media #{$lg} {
                 padding: 40px 30px;
             }
@@ -655,12 +656,12 @@
         left: 37px;
         bottom: 21px;
         &-two {
-            font-size: 60px;
+            font-size: 36px;
             color: var(--tg-theme-primary);
             position: relative;
             padding: 10px 0 0 17px;
             z-index: 1;
-            margin-bottom: 20px;
+            margin-right: 35px;
             display: inline-block;
             &::before {
                 content: "";

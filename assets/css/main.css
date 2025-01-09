@@ -8361,6 +8361,7 @@ textarea {
   -ms-border-radius: 30px;
   border-radius: 30px;
   padding: 50px 45px;
+  display: flex;
 }
 @media (max-width: 1199.98px) {
   .services__item-two {
@@ -9000,12 +9001,12 @@ textarea {
   bottom: 21px;
 }
 .services__icon-two {
-  font-size: 60px;
+  font-size: 36px;
   color: var(--tg-theme-primary);
   position: relative;
   padding: 10px 0 0 17px;
   z-index: 1;
-  margin-bottom: 20px;
+  margin-right: 35px;
   display: inline-block;
 }
 .services__icon-two::before {
@@ -15259,8 +15260,10 @@ textarea {
 .faq__wrap .accordion-body p {
   margin-bottom: 0;
 }
-.faq__wrap-two {
-  margin-left: 45px;
+.faq__wrap-two .title-two {
+  color: #ff4f00;
+  font-size: 21px;
+  margin: 40px 0 15px;
 }
 @media (max-width: 1199.98px) {
   .faq__wrap-two {

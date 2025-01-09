@@ -176,7 +176,11 @@
             }
         }
         &-two {
-            margin-left: 45px;
+            .title-two {
+                color: #ff4f00;
+                font-size: 21px;
+                margin: 40px 0 15px;
+            }
             @media #{$lg} {
                 margin-left: 0;
             }
