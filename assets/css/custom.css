@@ -2,11 +2,22 @@ ul.nexted-list-items {
     list-style-image: url(../../assets/img/icons/nexted-icon-1.png);
 }
 ul.nexted-list-items li{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 ul.nexted-list-items ul{
     list-style-image: url(../../assets/img/icons/nexted-icon-3.png);
 }
 ul.nexted-list-items ul ul{
     list-style-image: url(../../assets/img/icons/nexted-icon-2.png);
+}
+
+.title-one {
+    font-size: 21px;
+    font-weight: 700;
+    color: #FF4F00;
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    color: #FF4F00;
 }

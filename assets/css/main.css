@@ -9577,8 +9577,8 @@ textarea {
 }
 .services__details-content .title-two {
   margin-bottom: 15px;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   text-transform: capitalize;
 }
 @media (max-width: 767.98px) {
@@ -20518,7 +20518,7 @@ blockquote cite {
   margin-bottom: 25px;
 }
 .footer__logo-two {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .footer__logo-two img {
   max-width: 200px;
@@ -20543,7 +20543,7 @@ blockquote cite {
   gap: 15px;
   color: var(--tg-color-gray-4);
   line-height: 1.6;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .footer__contact .list-wrap li i {
   font-size: 24px;
@@ -20770,6 +20770,16 @@ blockquote cite {
   .footer__bottom-two {
     padding: 25px 0;
   }
+}
+.footer__bottom-two p.text-right {
+  text-align: right;
+}
+.footer__bottom-two p.text-right a {
+  color: #878BA8;
+  font-size: 13px;
+}
+.footer__bottom-two p.text-right a:hover {
+  color: var(--tg-theme-primary);
 }
 .footer__bottom-three {
   border-top: 1px solid #D7DBEB;
@@ -21003,13 +21013,6 @@ blockquote cite {
   color: #878BA8;
   margin-bottom: 0;
   font-size: 15px;
-}
-.copyright__content-two a {
-  color: #878BA8;
-  font-size: 13px;
-}
-.copyright__content-two a:hover {
-  color: var(--tg-theme-primary);
 }
 .copyright__content-three p {
   margin-bottom: 0;
