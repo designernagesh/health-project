@@ -102,7 +102,7 @@
                     margin-bottom: 10px;
                     & textarea,
                     & input {
-                        background: #1B5AFF;
+                        background: #ff3200;
                         color: var(--tg-color-white-default);
                         font-size: 14px;
                         border: none;
@@ -187,11 +187,13 @@
                     &:nth-child(2) {
                         left: 0;
                         top: 50%;
+                        mix-blend-mode: overlay;
                         transform: translateY(-50%);
                     }
                     &:nth-child(3) {
                         right: 0;
                         top: 0;
+                        mix-blend-mode: luminosity;
                     }
                 }
             }

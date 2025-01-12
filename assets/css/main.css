@@ -17542,7 +17542,7 @@ blockquote cite {
   margin-bottom: 10px;
 }
 .call__back-form-two .form-grp textarea, .call__back-form-two .form-grp input {
-  background: #1B5AFF;
+  background: #ff3200;
   color: var(--tg-color-white-default);
   font-size: 14px;
   border: none;
@@ -17639,11 +17639,13 @@ blockquote cite {
 .call__back-shape-two img:nth-child(2) {
   left: 0;
   top: 50%;
+  mix-blend-mode: overlay;
   transform: translateY(-50%);
 }
 .call__back-shape-two img:nth-child(3) {
   right: 0;
   top: 0;
+  mix-blend-mode: luminosity;
 }
 
 /*=============================
