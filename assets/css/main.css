@@ -11585,7 +11585,7 @@ textarea {
   background: var(--tg-theme-primary);
   position: relative;
   z-index: 1;
-  padding: 80px 30px 45px;
+  padding: 50px 30px;
 }
 .counter__wrap::before {
   content: "";
@@ -11601,7 +11601,6 @@ textarea {
   z-index: 2;
 }
 .counter__item {
-  margin-bottom: 30px;
   text-align: center;
 }
 .counter__item .count {
